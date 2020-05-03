@@ -34,5 +34,5 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find {|planet| planet == ("Wind!")}
   planeteer_calls.find {|planet| planet == ("Fire!")}
   planeteer_calls.find {|planet| planet == ("Water!")}
-  planeteer_calls.find {|planet| planet == (valid_calls)}
+  planeteer_calls.find {|planet| planet == ("Heart!")}
 end
