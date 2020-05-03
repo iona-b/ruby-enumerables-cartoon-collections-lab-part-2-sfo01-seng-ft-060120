@@ -21,7 +21,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   long_planeteer_calls.any? do |planet|
-    planet.size > 4
+    true if planet.length > 4
   end
 end
 
