@@ -31,6 +31,5 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   i = 0
   planeteer_calls.find {|planet| planet == (valid_calls[i])}
-  i += 1
   
 end
