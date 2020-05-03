@@ -33,6 +33,7 @@ def find_valid_calls(planeteer_calls)
   counter = 0 
   while counter < valid_calls.length
     planeteer_calls.find {|planet| planet == (valid_calls[counter])}
+    
     counter += 1 
   end
 end
